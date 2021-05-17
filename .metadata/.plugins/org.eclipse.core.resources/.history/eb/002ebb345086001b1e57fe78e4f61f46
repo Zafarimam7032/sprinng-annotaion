@@ -1,0 +1,16 @@
+package com.zafar;
+
+import org.springframework.stereotype.Component;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Component
+@RequestMapping(path = "/home")
+public class HelloWorld {
+	@GetMapping(path = "/hello")
+	public String display()
+	{
+		return "helloWorld";
+	}
+
+}

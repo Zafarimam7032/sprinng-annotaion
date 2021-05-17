@@ -1,0 +1,5 @@
+package com.grwts.repository;
+
+public interface StudentRepository {
+
+}

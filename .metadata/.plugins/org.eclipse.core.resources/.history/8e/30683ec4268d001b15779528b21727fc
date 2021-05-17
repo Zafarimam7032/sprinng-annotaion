@@ -1,0 +1,21 @@
+package com.grwts.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.grwts.depricated.DepricatedImplimentation;
+
+@RestController
+public class CalculatorController {
+	@Autowired
+	private DepricatedImplimentation depricatedImplimentatio;
+	@GetMapping(path = "/display")
+	public int  display()
+	{
+		int add = depricatedImplimentatio.add();
+		return add;
+		
+	}
+
+}

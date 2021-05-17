@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.grwts.annotation.CustomController&apos; to &apos;CustomRestController&apos;&#x0D;&#x0A;- Original project: &apos;CustomAnnotationDemo&apos;&#x0D;&#x0A;- Original element: &apos;com.grwts.annotation.CustomController&apos;&#x0D;&#x0A;- Renamed element: &apos;com.grwts.annotation.CustomRestController&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;CustomController&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.grwts.annotation{CustomController.java[CustomController" matchStrategy="1" name="CustomRestController" qualified="false" references="true" similarDeclarations="false" stamp="1616646090644" textual="false" version="1.0"/>
+</session>

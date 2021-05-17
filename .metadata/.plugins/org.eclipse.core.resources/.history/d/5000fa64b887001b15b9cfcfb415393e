@@ -1,0 +1,18 @@
+package com.zafar.auto;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+import com.zafar.Zafar;
+import com.zafar.pojo.HelloWorld;
+
+@Component
+public class AutoWired {
+	@Autowired
+	private HelloWorld helloworld;
+	AutoWired()
+	{
+		helloworld.display();
+	}
+
+}

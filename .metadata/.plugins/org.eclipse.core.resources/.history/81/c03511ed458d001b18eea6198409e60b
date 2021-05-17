@@ -1,0 +1,5 @@
+package com.grwts.vo;
+
+public class StudentVo {
+
+}

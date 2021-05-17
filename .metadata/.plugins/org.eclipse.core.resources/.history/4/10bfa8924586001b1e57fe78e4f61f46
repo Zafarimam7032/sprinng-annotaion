@@ -1,0 +1,22 @@
+package com.zafar;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.stereotype.Component;
+
+import com.zafar.pojo.HelloWorld;
+
+@SpringBootApplication
+@ComponentScan({"com.zafar.pojo,com.zafar.auto"})
+public class MyOwnAnnotationApplication {
+
+	public static void main(String[] args) {
+		ConfigurableApplicationContext run = SpringApplication.run(MyOwnAnnotationApplication.class, args);
+//		HelloWorld bean = run.getBean(HelloWorld.class);
+//		bean.display();
+		
+	}
+
+}

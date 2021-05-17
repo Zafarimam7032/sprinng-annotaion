@@ -1,0 +1,6 @@
+package com.grwts.iterface;
+@FunctionalInterface
+public interface FunctionalInterfacee {
+	public int add(int a,int b);
+
+}

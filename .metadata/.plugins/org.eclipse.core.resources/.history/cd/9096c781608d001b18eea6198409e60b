@@ -1,0 +1,22 @@
+package com.grwts.pojo;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.grwts.iterface.FunctionalInterfacee;
+
+@RestController
+public class Controller {
+	@GetMapping(path = "/home")
+	public int display()
+	{
+		 FunctionalInterfacee functionalInterfacee = (10,20) -> return 0;
+			
+			
+				
+				
+			
+		
+	}
+
+}

@@ -1,0 +1,17 @@
+package com.zafar.auto;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.zafar.Zafar;
+import com.zafar.pojo.HelloWorld;
+
+@Zafar
+public class AutoWired {
+	@Autowired
+	private HelloWorld helloworld;
+	AutoWired()
+	{
+		helloworld.display();
+	}
+
+}

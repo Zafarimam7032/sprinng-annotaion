@@ -1,0 +1,14 @@
+package com.zafar.auto;
+
+import com.zafar.Zafar;
+import com.zafar.pojo.HelloWorld;
+
+@Zafar
+public class AutoWired {
+	private HelloWorld helloworld;
+	AutoWired()
+	{
+		helloworld.display();
+	}
+
+}

@@ -1,0 +1,13 @@
+package com.grwts.pojo;
+
+import com.grwts.annotation.CustomController;
+
+@CustomController
+public class HelloWorldController {
+	public String display()
+	{
+		System.out.println("this is helle world  program");
+		return "hello World";
+	}
+
+}

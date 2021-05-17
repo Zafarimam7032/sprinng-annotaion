@@ -1,0 +1,12 @@
+package com.zafar.pojo;
+
+import com.zafar.Zafar;
+
+@Zafar
+public class HelloWorld {
+	public void display()
+	{
+		System.out.print("helloWorld");
+	}
+
+}

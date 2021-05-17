@@ -1,0 +1,5 @@
+package com.grwts.iterface;
+
+public interface FunctionalInterfacee {
+
+}
